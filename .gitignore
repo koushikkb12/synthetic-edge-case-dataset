@@ -2,10 +2,6 @@
 generate_dataset.py
 main.py
 
-# Ignore setup scripts
-setup_pr.sh
-setup_prompt.sh
-
 # Python environments and cache
 __pycache__/
 *.py[cod]
@@ -19,13 +15,3 @@ env/
 .DS_Store
 Thumbs.db
 .wget-hsts
-
-# Cloud IDE and workspace specific directories (No trailing slashes for symlinks)
-.lightning
-.lightning_studio
-.gemini
-.idea
-.vscode
-.vscode-server
-.cursor-server
-.windsurf-server
