@@ -20,12 +20,12 @@ env/
 Thumbs.db
 .wget-hsts
 
-# Cloud IDE and workspace specific directories
-.lightning/
-.lightning_studio/
-.gemini/
-.idea/
-.vscode/
-.vscode-server/
-.cursor-server/
-.windsurf-server/
+# Cloud IDE and workspace specific directories (No trailing slashes for symlinks)
+.lightning
+.lightning_studio
+.gemini
+.idea
+.vscode
+.vscode-server
+.cursor-server
+.windsurf-server
