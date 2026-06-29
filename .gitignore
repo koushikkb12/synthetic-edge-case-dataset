@@ -1,0 +1,22 @@
+# Ignore the first iteration script we did not use
+generate_dataset.py
+
+# Ignore setup scripts
+setup_prompt.sh
+
+# Python environments and cache
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+.venv/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Cloud IDE and workspace specific directories
+.lightning/
+.gemini/
