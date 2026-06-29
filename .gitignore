@@ -1,7 +1,9 @@
 # Ignore the first iteration script we did not use
 generate_dataset.py
+main.py
 
 # Ignore setup scripts
+setup_pr.sh
 setup_prompt.sh
 
 # Python environments and cache
@@ -16,7 +18,14 @@ env/
 # OS generated files
 .DS_Store
 Thumbs.db
+.wget-hsts
 
 # Cloud IDE and workspace specific directories
 .lightning/
+.lightning_studio/
 .gemini/
+.idea/
+.vscode/
+.vscode-server/
+.cursor-server/
+.windsurf-server/
